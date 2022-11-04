@@ -1,0 +1,40 @@
+{
+    "name": "hiraeth/inflector",
+    "description": "Doctrine inflector integration for the Hiraeth Nano-Framework",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Matthew J. Sahagian",
+            "email": "matthew.sahagian@gmail.com",
+            "role":  "Lead Architect / Developer"
+        }
+    ],
+    "require": {
+        "hiraeth/app": "^2.0",
+        "doctrine/inflector": "^2.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0",
+	"hiraeth/app": "^2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "type": "opus-package",
+    "extra": {
+        "opus": {
+            "hiraeth/app": {
+                "config": ""
+            }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "imarc/opus": true
+        }
+    }
+}
