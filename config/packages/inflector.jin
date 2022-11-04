@@ -18,7 +18,7 @@
 	;
 
 	delegates = [
-		"Hiraeth\Inflector\InflectorDelgate"
+		"Hiraeth\Inflector\InflectorDelegate"
 	]
 
 	;
