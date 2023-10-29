@@ -12,12 +12,13 @@
         }
     ],
     "require": {
-        "hiraeth/app": "^2.0",
+        "hiraeth/app": "^3.0",
         "doctrine/inflector": "^2.0"
     },
     "require-dev": {
         "phpstan/phpstan": "^1.0",
-	"hiraeth/app": "^2.0"
+	"phpunit/phpunit": "^8.5",
+	"hiraeth/app": "^3.0"
     },
     "autoload": {
         "classmap": [
