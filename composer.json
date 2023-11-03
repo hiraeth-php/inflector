@@ -17,12 +17,16 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^1.0",
-	"phpunit/phpunit": "^10.0",
-	"hiraeth/app": "^3.0"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "classmap": [
-            "src/"
+            "src"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "test/src"
         ]
     },
     "type": "opus-package",
